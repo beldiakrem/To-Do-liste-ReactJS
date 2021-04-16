@@ -1,0 +1,291 @@
+/* //App///// */
+
+#monliste {
+  background-color: #29b6f6;
+  color: #fff;
+  margin-top: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-family: cursive;
+      box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+
+/* ////// */
+/* //Add///// */
+.add{
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+
+  color: black;
+  margin-top: 60px;
+  margin-left: 362px;;
+  width: 628px;
+  height: 187px;
+}
+.gauche {
+  padding: 10px;
+}
+img{
+    float: left;
+    padding: 10px;
+    margin-top: -65px;
+    margin-right: 0px;
+    }
+
+h6 {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 0.8;
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 10px;
+}
+.ligne{
+  background: #eee;
+  margin-bottom: 44px;
+    margin-top: -22px;
+    height: 1px;
+    border: none;
+    width: 90%;
+}
+
+form{
+display: flex
+}
+
+.button{
+display: flex;
+justify-content: flex-end;
+padding-top: 13px;
+
+}
+.add button{
+  background-color: transparent;
+  border:0;
+}
+.add button:focus{
+  outline: none;
+}
+.add button img{
+  margin: -17px -16px 0;
+}
+.add button img:hover {
+  cursor: pointer;
+}
+.inputbutton:focus{
+  border: none;
+}
+.inputbutton input{
+  width: 450px;
+    height: 29px;
+    border: none;
+    border-bottom: 1px solid #eee ;
+    margin: 0 35px;
+    font-size: 20px;
+}
+.inputbutton input:focus{
+  outline: none;
+}
+input::after{
+  border-bottom: 1px solid rgb(28, 127, 172);
+}
+::placeholder{
+  padding-left: 2px;
+  color: #838383;
+  font-size: 17px;
+}
+@media only screen and (max-width: 1024px) {
+  .add{
+    margin-left: 210px;;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .add{
+    margin-left: 70px;;
+  }
+  
+}
+@media only screen and (max-width: 360px) {
+  .add { 
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+     color: black; 
+     margin-top: 60px;
+      margin-left: 19px;
+       width: 320px;
+        height: 179px; }
+  
+}
+@media only screen and (max-width: 360px) {
+  .inputbutton input { 
+    width: 222px;
+     height: 29px;
+      border: none;
+       border-bottom: 1px solid #eee; 
+       margin: 0 15px; 
+       font-size: 20px; }
+  
+}
+
+
+/* ////// */
+/* //list///// */
+.list{
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+  color: black;
+  margin-top: 60px;
+  margin-left: 362px;;
+  width: 628px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.list h5 {
+  margin-top: 0px;
+  font-size: 23px;
+  word-break: break-all;
+}
+.sousliste {
+  background: #eee;
+  margin-top: 45px;
+  height: 1px;
+  border: none;
+  width: 42%;
+  position: absolute;
+  right: 388px;
+}
+.list button{
+  background-color: transparent;
+  border:0;
+}
+.list button:focus{
+  outline: none;
+}
+.list button img{
+  margin: -38px 0px 0;
+}
+.list button img:hover {
+  cursor: pointer;
+}
+#delete{
+  right: 375px;
+  position: absolute;
+}
+#edit{
+  right: 410px;
+  position: absolute;
+}
+.button-list{
+  display: flex;
+}
+.completed {
+  text-decoration: line-through;
+  color: #32BEA6;
+  word-break: break-all;
+}
+.deleteall{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #00d2ff 0%, #29B6F6 51%, #00d2ff 100%);
+  padding: 16px;
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin: auto;
+}
+.deleteall:focus{
+  outline: none;
+}
+
+
+
+/* ////// @media ////// */
+
+@media only screen and (max-width: 1024px) {
+  .list{
+    margin-left: 210px;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .list{
+    margin-left: 70px;
+  }
+  
+}
+@media only screen and (max-width: 1024px) {
+  .sousliste{
+    width: 56%;
+    right: 213px;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .sousliste{
+    width: 74%;
+    right: 97px;
+  }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  #delete {
+    right: 200px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  #delete {
+    right: 85px;
+  }
+  
+}
+
+@media only screen and (max-width: 360px) {
+  .list { 
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+     color: black; 
+     margin-top: 60px;
+      margin-left: 19px;
+       width: 320px;
+        height: auto; 
+        margin-bottom: 50px;
+      }
+}
+
+@media only screen and (max-width: 360px){
+.sousliste {
+    width: 80%;
+    right: 37px;
+}
+}
+
+@media only screen and (max-width: 360px) {
+  #delete {
+    right: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  #edit {
+    right: 235px;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  #edit {
+    right: 120px;
+  }
+  
+}
+
+@media only screen and (max-width: 360px) {
+  #edit {
+    right: 50px;
+  }
+  
+}
